@@ -1,0 +1,48 @@
+.mt-10 {
+  margin-top: 10rem !important;
+}
+
+#processHeadings h2{
+  font-weight: 300;
+}
+
+#portfolio .overLay {
+  position: absolute;
+  top: 25%;
+}
+
+#portfolio .backLay {
+/*  background: -webkit-radial-gradient(circle, #ffffff, rgba(0, 0, 0, 0.39));
+*/  box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.1);
+}
+
+#portfolio .underLay {
+  filter: blur(9px);
+}
+
+#portfolio a .underLay, #portfolio a .overLay{
+  transition: all .4s;
+}
+
+#portfolio a:hover .underLay {
+  filter: blur(0px);
+}
+
+#portfolio a:hover .overLay {
+  opacity: 0;
+}
+
+#services img{
+  padding: 30%;
+  padding-bottom: 10%;
+}
+
+#services h3{
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+footer img {
+  padding: 25%;
+}
