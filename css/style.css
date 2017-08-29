@@ -46,3 +46,70 @@
 footer img {
   padding: 25%;
 }
+
+@media (max-width: 767px) {
+
+  .mt-10 {
+    margin-top: 2rem !important;
+  }
+
+  #home h2 {
+    font-size: 1.24rem;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+
+  #home p {
+    font-size: small;
+    color: #666;
+  }
+
+  #services h3 {
+    font-size: 1rem;
+    text-transform: none;
+    font-weight: 500;
+  }
+
+  #process.mt-10 {
+    margin-top: 5rem !important;
+  }
+
+  h1.display-4 {
+    font-size: 2.4rem;
+  }
+
+  #processHeadings h2 {
+    font-size: 1rem;
+  }
+
+  .my-5 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  #processDetail img {
+    padding-bottom: 1rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+  }
+
+  .m-5.mb-4{
+    margin: 0 !important;
+    margin-bottom: 2.4rem !important;
+  }
+
+  #portfolio .backLay {
+    margin-bottom: 1.24rem;
+  }
+
+  #portfolio .overLay {
+    top: 30%;
+    width: 50%;
+    left: 25%;
+  }
+
+  footer img {
+    padding: 0;
+  }
+
+}
