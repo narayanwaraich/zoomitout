@@ -103,13 +103,20 @@ footer img {
   }
 
   #portfolio .overLay {
-    top: 30%;
+    top: 100%;
     width: 50%;
     left: 25%;
+  }
+
+  #portfolio .underLay {
+    filter: unset;
   }
 
   footer img {
     padding: 0;
   }
 
+  #portfolio a {
+    margin-bottom: 5rem;
+  }
 }
