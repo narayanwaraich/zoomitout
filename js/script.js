@@ -92,3 +92,7 @@ function loaded() {
   form.addEventListener("submit", handleFormSubmit, false);
 };
 document.addEventListener('DOMContentLoaded', loaded, false);
+
+var headerQuotes = [ "sales", "traffic", "conversion", "reach" ];
+
+$("#purpose h1 span").text(headerQuotes[Math.floor(Math.random() * headerQuotes.length)]);
