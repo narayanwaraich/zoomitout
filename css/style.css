@@ -6,6 +6,11 @@
   margin-top: 7rem !important;
 }
 
+#purpose{
+    background: linear-gradient(135deg, #ff5c6d 20%, #ffb502 80%);
+    color: white;
+}
+
 #purpose h1{
   font-weight: 300;
   font-size: 3.2rem;
@@ -16,7 +21,7 @@
 }
 
 #purpose hr {
-  border-top: 3px solid rgba(0,0,0,0.7);
+  border-top: 1px solid rgba(0,0,0,0.3);
   width: 10%;
 }
 
