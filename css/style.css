@@ -7,22 +7,25 @@
 }
 
 #purpose{
-    background: linear-gradient(135deg, #ff5c6d 20%, #ffb502 80%);
-    color: white;
+  background: linear-gradient(135deg, #8EC5FC 20%, #E0C3FC 80%);
+  color: #777;
+  padding: 5rem 0;
 }
 
 #purpose h1{
   font-weight: 300;
   font-size: 3.2rem;
+  color: #292929;
 }
 
 #purpose p {
   font-size: 1.5rem;
+  font-weight: 100;
 }
 
 #purpose hr {
-  border-top: 1px solid rgba(255,255,255,0.3);
-  width: 10%;
+  border-top: 1px solid rgba(0,0,0,0.4);
+  width: 30%;
 }
 
 nav h6 {
@@ -86,7 +89,7 @@ nav h6 span {
 }
 
 #services li {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
 }
 
 footer img {
@@ -95,6 +98,35 @@ footer img {
 
 .jumbotron {
   background-color: transparent;
+  padding-top: 0;
+}
+
+.nav-tabs .nav-link{
+  color: #717171;
+  font-weight: 100;
+  font-size: 1.1rem;
+  transition: all 140ms cubic-bezier(0.09, 0.83, 0.58, 1);
+  border-bottom:1px solid #ddd;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff #fff #ffb400;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.nav-tabs .nav-link:hover {
+  border-color: #fff #fff #ffb400;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .tab-content p {
+  padding: 25%;
 }
 
 @media (max-width: 767px) {
