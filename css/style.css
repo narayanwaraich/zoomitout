@@ -89,7 +89,9 @@ nav h6 span {
 }
 
 #services li {
-  font-size: 1.1rem;
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  color: #696969;
 }
 
 footer img {
@@ -125,8 +127,16 @@ footer img {
   border: none;
 }
 
-.nav-tabs .tab-content p {
-  padding: 25%;
+.tab-pane .row {
+  padding: 1rem;
+}
+
+.tab-pane p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #616161;
+  padding: 1.5rem;
+  padding-top: 0;
 }
 
 @media (max-width: 767px) {
