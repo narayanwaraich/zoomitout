@@ -93,6 +93,16 @@ function loaded() {
 };
 document.addEventListener('DOMContentLoaded', loaded, false);
 
-var headerQuotes = [ "sales", "traffic", "conversion", "reach" ];
 
-$("#purpose h1 span").text(headerQuotes[Math.floor(Math.random() * headerQuotes.length)]);
+$(document).ready(function() {
+
+  var headerQuotes = [ "sales", "traffic", "conversion", "reach" ];
+  var randomQuote = headerQuotes[Math.floor(Math.random() * headerQuotes.length)];
+  var selection = $("#purpose h1 span");
+  selection.text(headerQuotes[Math.floor(Math.random() * headerQuotes.length)]);
+
+  setInterval(function() {
+    selection.fadeOut( "slow", function() { selection.text(headerQuotes[Math.floor(Math.random() * headerQuotes.length)]); selection.fadeIn( "slow"); });
+  }, 5000);
+
+})

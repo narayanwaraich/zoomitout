@@ -1,5 +1,10 @@
 .mt-10 {
-  margin-top: 10rem !important;
+  margin-top: 6rem !important;
+}
+
+.m-10 {
+  margin-top: 6rem !important;
+  margin-bottom: 4rem !important;
 }
 
 .mt-7 {
@@ -98,6 +103,7 @@ footer img {
 .jumbotron {
   background-color: transparent;
   padding-top: 0;
+  padding-bottom: 1rem;
 }
 
 .nav-tabs .nav-link{
