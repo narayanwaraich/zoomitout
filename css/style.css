@@ -147,10 +147,21 @@ footer img {
   width: 70%;
 }
 
+#home {
+  background: url(../img/wherewecomefrom.jpg) top no-repeat #00a4b8;
+  background-size: cover;
+  padding: 5rem 1rem;
+  color: white;
+}
+
 @media (max-width: 767px) {
 
   .mt-10 {
     margin-top: 2rem !important;
+  }
+
+  #home {
+    background-image: none;
   }
 
   #home h2 {
@@ -161,7 +172,6 @@ footer img {
 
   #home p {
     font-size: small;
-    color: #666;
   }
 
   #services h3 {
@@ -203,7 +213,7 @@ footer img {
   }
 
   #portfolio .overLay {
-    top: 100%;
+    top: 40%;
     width: 50%;
     left: 25%;
   }

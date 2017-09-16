@@ -97,12 +97,13 @@ document.addEventListener('DOMContentLoaded', loaded, false);
 $(document).ready(function() {
 
   var headerQuotes = [ "sales", "traffic", "conversion", "reach" ];
-  var randomQuote = headerQuotes[Math.floor(Math.random() * headerQuotes.length)];
+  var numHeaderQuotes = headerQuotes.length;
+  var index = 0;
   var selection = $("#purpose h1 span");
-  selection.text(headerQuotes[Math.floor(Math.random() * headerQuotes.length)]);
+  selection.html(headerQuotes[index]);
 
   setInterval(function() {
-    selection.fadeOut( "slow", function() { selection.text(headerQuotes[Math.floor(Math.random() * headerQuotes.length)]); selection.fadeIn( "slow"); });
-  }, 5000);
+    selection.fadeOut( "slow", function() { index = (index + 1) % numHeaderQuotes; selection.html(headerQuotes[index]); selection.fadeIn( "slow"); });
+  }, 2000);
 
 })
