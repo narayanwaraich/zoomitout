@@ -103,7 +103,11 @@ $(document).ready(function() {
   selection.html(headerQuotes[index]);
 
   setInterval(function() {
-    selection.fadeOut( "slow", function() { index = (index + 1) % numHeaderQuotes; selection.html(headerQuotes[index]); selection.fadeIn( "slow"); });
+    selection.fadeOut( "slow", function() {
+      index = (index + 1) % numHeaderQuotes;
+      selection.html(headerQuotes[index]);
+      selection.fadeIn( "slow");
+    });
   }, 2000);
 
 })

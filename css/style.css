@@ -81,8 +81,10 @@ nav h6 span {
 }
 
 #services h2{
-  color: #ffb400;
+  color: #545454;
   margin-bottom: 0;
+  font-size: 1.4rem;
+  margin-top: 1rem;
 }
 
 #services ul{
@@ -152,6 +154,38 @@ footer img {
   background-size: cover;
   padding: 5rem 1rem;
   color: white;
+}
+
+#nav-tabs .nav-pills .nav-link {
+  font-size: .8rem;
+  background-color: #00a4b8;
+  color: #dcdcdc;
+  border-bottom: 1px solid rgba(102, 179, 212, 0.4);
+  border-radius: 0;
+}
+
+#nav-tabs .nav-pills .nav-link.active {
+  background-color: #ffc107;
+  color: #505050;
+}
+
+#nav-tabs .nav-link {
+  padding: 1.5rem 1rem;
+}
+
+#nav-tabs .tab-pane {
+  padding-top: 0;
+}
+
+#nav-tabs .nav {
+  border-right: 1px solid rgba(102, 179, 212, 0.4);
+}
+
+#nav-tabs {
+  margin-bottom: 5rem;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 @media (max-width: 767px) {

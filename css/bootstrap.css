@@ -3209,13 +3209,13 @@ tbody.collapse.show {
 }
 
 .nav-pills .nav-link {
-  border-radius: 0.25rem;
+  /* border-radius: 0.25rem; */
 }
 
 .nav-pills .nav-link.active,
 .show > .nav-pills .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: #333333;
 }
 
 .nav-fill .nav-item {
